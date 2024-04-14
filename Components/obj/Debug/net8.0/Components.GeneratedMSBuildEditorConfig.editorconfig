@@ -1,0 +1,39 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = Components
+build_property.RootNamespace = Components
+build_property.ProjectDir = D:\dev\LoneDevSite\LoneDevWebsite\Components\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\dev\LoneDevSite\LoneDevWebsite\Components
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/dev/LoneDevSite/LoneDevWebsite/Components/Cards/ProjectCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q2FyZHNcUHJvamVjdENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dev/LoneDevSite/LoneDevWebsite/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dev/LoneDevSite/LoneDevWebsite/Components/Buttons/ButtonArrow.razor]
+build_metadata.AdditionalFiles.TargetPath = QnV0dG9uc1xCdXR0b25BcnJvdy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2ebn0ogzx8
+
+[D:/dev/LoneDevSite/LoneDevWebsite/Components/Buttons/ButtonPrimary.razor]
+build_metadata.AdditionalFiles.TargetPath = QnV0dG9uc1xCdXR0b25QcmltYXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-imugxlmgo4
+
+[D:/dev/LoneDevSite/LoneDevWebsite/Components/Containers/ContainerBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udGFpbmVyc1xDb250YWluZXJCYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-on12l550qm

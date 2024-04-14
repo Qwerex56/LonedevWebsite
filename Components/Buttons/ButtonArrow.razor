@@ -1,0 +1,10 @@
+<button class="ButtonArrow">
+    <div class="ButtonArrow__Ctn">
+        <div class="ButtonArrow__img"></div>
+        @BtnMsg
+    </div>
+</button>
+
+@code {
+    [Parameter] public string BtnMsg { get; set; } = "Message";
+}
