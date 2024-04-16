@@ -1,16 +1,23 @@
-.ProjectCard {
+.ProjectCard__ProjectImage {
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+    
+    width: 100%;
+    max-width: 350px;
 }
 
 .ProjectCard__ProjectContent {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .ProjectCard__ProjectContent__Buttons {
-    justify-self: self-end;
+    align-self: flex-end;
     
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.55rem;
 }
 
 .ProjectCard__ProjectContent__Buttons--Btn {

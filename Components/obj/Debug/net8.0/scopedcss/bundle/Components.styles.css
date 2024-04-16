@@ -35,86 +35,42 @@
 }
 /* _content/Components/Buttons/ButtonPrimary.razor.rz.scp.css */
 .ButtonPrimary[b-imugxlmgo4] {
-    display: flex;
-    flex-direction: row;
-    
-    position: relative;
-}
-
-.ButtonPrimary__Shadow[b-imugxlmgo4] {
-    content: "";
-    
-    position: absolute;
-    translate: 4px 2px;
-    
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    
-    z-index: -1;
-}
-
-.ButtonPrimary__Foreground[b-imugxlmgo4] {
-    width: 100%;
-    
-    border: 2px solid black;
-    padding: 0.5rem 1rem;
-    
-    background-color: lightpink;
-
     text-align: center;
-    vertical-align: center;
-    
-    transition-duration: 200ms;
-}
-
-.ButtonPrimary__Foreground:hover[b-imugxlmgo4] {
-    translate: -2px -2px;
 }
 /* _content/Components/Cards/CardBase.razor.rz.scp.css */
 .ContainerBase[b-bu7w3gd0jq] {
-    box-sizing: border-box;
-    position: relative;
-    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
-    background-color: pink;
-    
-    border: 0.125rem solid black;
-}
-
-.ContainerBase__Shadow[b-bu7w3gd0jq] {
-    position: absolute;
-    content: "";
-    
-    width: 100%;
-    height: 100%;
-    
-    background-color: black;
-    
-    translate: 4px 6px;
-    z-index: -1;
+    gap: 0.5rem;
 }
 
 .ContainerBase__Content[b-bu7w3gd0jq] {
     padding: 1rem;
 }
 /* _content/Components/Cards/ProjectCard.razor.rz.scp.css */
-.ProjectCard[b-jrz73y12r5] {
+.ProjectCard__ProjectImage[b-jrz73y12r5] {
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+    
+    width: 100%;
+    max-width: 350px;
 }
 
 .ProjectCard__ProjectContent[b-jrz73y12r5] {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .ProjectCard__ProjectContent__Buttons[b-jrz73y12r5] {
-    justify-self: self-end;
+    align-self: flex-end;
     
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.55rem;
 }
+
 
 .ProjectCard__ProjectContent__Buttons--Btn[b-jrz73y12r5] {
     width: 10rem;

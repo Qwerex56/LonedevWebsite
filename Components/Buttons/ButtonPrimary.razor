@@ -1,13 +1,10 @@
-<div class="ButtonPrimary">
-    <div class="ButtonPrimary__Shadow"></div>
-    <button class="ButtonPrimary__Foreground">
-        <p>
-            @if (ChildContent is not null) {
-                @ChildContent
-            }
-        </p>
-    </button>
-</div>
+<button class="ContainerNormal ContainerNormalHover ButtonPrimary">
+    <p class="ButtonPrimary__Text">
+        @if (ChildContent is not null) {
+            @ChildContent
+        }
+    </p>
+</button>
 
 @code {
     [Parameter] public RenderFragment? ChildContent { get; set; }
