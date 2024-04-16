@@ -39,7 +39,6 @@
     flex-direction: row;
     
     position: relative;
-    width: fit-content;
 }
 
 .ButtonPrimary__Shadow[b-imugxlmgo4] {
@@ -56,33 +55,67 @@
 }
 
 .ButtonPrimary__Foreground[b-imugxlmgo4] {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
     
     border: 2px solid black;
     padding: 0.5rem 1rem;
-
+    
     background-color: lightpink;
 
+    text-align: center;
+    vertical-align: center;
+    
     transition-duration: 200ms;
 }
 
 .ButtonPrimary__Foreground:hover[b-imugxlmgo4] {
     translate: -2px -2px;
 }
-/* _content/Components/Containers/ContainerBase.razor.rz.scp.css */
-.ContainerBase[b-on12l550qm] {
+/* _content/Components/Cards/CardBase.razor.rz.scp.css */
+.ContainerBase[b-bu7w3gd0jq] {
     box-sizing: border-box;
     position: relative;
     
     display: flex;
+    flex-direction: row;
+    
+    background-color: pink;
+    
+    border: 0.125rem solid black;
 }
 
-.ButtonPrimary__Shadow[b-on12l550qm] {
+.ContainerBase__Shadow[b-bu7w3gd0jq] {
     position: absolute;
+    content: "";
     
     width: 100%;
     height: 100%;
     
-    translate: 3px 3px;
+    background-color: black;
+    
+    translate: 4px 6px;
+    z-index: -1;
+}
+
+.ContainerBase__Content[b-bu7w3gd0jq] {
+    padding: 1rem;
+}
+/* _content/Components/Cards/ProjectCard.razor.rz.scp.css */
+.ProjectCard[b-jrz73y12r5] {
+}
+
+.ProjectCard__ProjectContent[b-jrz73y12r5] {
+    
+}
+
+.ProjectCard__ProjectContent__Buttons[b-jrz73y12r5] {
+    justify-self: self-end;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ProjectCard__ProjectContent__Buttons--Btn[b-jrz73y12r5] {
+    width: 10rem;
 }

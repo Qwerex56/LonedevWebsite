@@ -1,7 +1,39 @@
-@inherits Components.Containers.ContainerBase
+@inherits Components.Cards.CardBase
+@using Components.Buttons
 
-<div id="ChildContent">Some text</div>
+<CardBase>
+    <div class="ProjectCard">
+        <div class="ProjectCard__ProjectImage"></div>
+        <div class="ProjectCard__ProjectContent">
+            <h2 class="ProjectCard__ProjectContent--Heading">
+                @if (HeaderContent is null) {
+                    // Fallback
+                    // Fallback title
+                }
+                else {
+                    @HeaderContent
+                }
+            </h2>
+            <p class="ProjectCard__ProjectContent__Description">
+                @if (DescriptionContent is not null) {
+                    @DescriptionContent
+                }
+                @* No fallback content *@
+            </p>
+            <div class="ProjectCard__ProjectContent__Buttons">
+                <ButtonPrimary>
+                    KYS
+                </ButtonPrimary>
+                <ButtonPrimary>
+                    Go to project
+                </ButtonPrimary>
+            </div>
+        </div>
+    </div>
+</CardBase>
 
 @code {
-    
+    [Parameter] public string ImageSource { get; set; } = null!;
+    [Parameter] public RenderFragment? HeaderContent { get; set; }
+    [Parameter] public RenderFragment? DescriptionContent { get; set; }
 }

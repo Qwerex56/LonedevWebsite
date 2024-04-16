@@ -1,10 +1,14 @@
 <div class="ButtonPrimary">
     <div class="ButtonPrimary__Shadow"></div>
     <button class="ButtonPrimary__Foreground">
-        @BtnMsg
+        <p>
+            @if (ChildContent is not null) {
+                @ChildContent
+            }
+        </p>
     </button>
 </div>
 
 @code {
-    [Parameter] public string BtnMsg { get; set; } = "Message";
+    [Parameter] public RenderFragment? ChildContent { get; set; }
 }

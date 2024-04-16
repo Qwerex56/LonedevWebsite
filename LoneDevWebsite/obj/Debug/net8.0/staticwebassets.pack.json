@@ -17,14 +17,6 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
       "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

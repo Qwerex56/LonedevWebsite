@@ -1,0 +1,28 @@
+.ContainerBase {
+    box-sizing: border-box;
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    
+    background-color: pink;
+    
+    border: 0.125rem solid black;
+}
+
+.ContainerBase__Shadow {
+    position: absolute;
+    content: "";
+    
+    width: 100%;
+    height: 100%;
+    
+    background-color: black;
+    
+    translate: 4px 6px;
+    z-index: -1;
+}
+
+.ContainerBase__Content {
+    padding: 1rem;
+}

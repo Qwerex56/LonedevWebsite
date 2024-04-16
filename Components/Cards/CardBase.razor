@@ -1,0 +1,12 @@
+<div class="ContainerBase">
+    <div class="ContainerBase__Shadow"></div>
+    <div class="ContainerBase__Content">
+        @if (ChildContent is not null) {
+            @ChildContent
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+}

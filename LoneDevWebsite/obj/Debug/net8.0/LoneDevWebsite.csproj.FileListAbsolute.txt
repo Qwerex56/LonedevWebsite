@@ -1039,3 +1039,4 @@ D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite\obj\Debug\net8.0\LoneDevWebsite
 D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite\obj\Debug\net8.0\refint\LoneDevWebsite.dll
 D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite\obj\Debug\net8.0\LoneDevWebsite.pdb
 D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite\obj\Debug\net8.0\ref\LoneDevWebsite.dll
+D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite\obj\Debug\net8.0\LoneDevWebsite.sourcelink.json

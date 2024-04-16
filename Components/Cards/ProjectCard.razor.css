@@ -1,0 +1,18 @@
+.ProjectCard {
+}
+
+.ProjectCard__ProjectContent {
+    
+}
+
+.ProjectCard__ProjectContent__Buttons {
+    justify-self: self-end;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ProjectCard__ProjectContent__Buttons--Btn {
+    width: 10rem;
+}
