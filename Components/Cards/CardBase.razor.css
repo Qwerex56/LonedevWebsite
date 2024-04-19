@@ -1,10 +1,6 @@
-.ContainerBase {
+.CardBase {
     display: flex;
     flex-direction: column;
     
-    gap: 0.5rem;
-}
-
-.ContainerBase__Content {
-    padding: 1rem;
+    gap: 1rem;
 }

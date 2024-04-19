@@ -1867,7 +1867,6 @@ E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\staticwebassets\msbuild.build.
 E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LoneDevWebsite.props
 E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LoneDevWebsite.props
 E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\staticwebassets.pack.json
-E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\scopedcss\bundle\LoneDevWebsite.styles.css
 E:\LonedevWebsite\LoneDevWebsite\obj\Debug\net8.0\scopedcss\projectbundle\LoneDevWebsite.bundle.scp.css

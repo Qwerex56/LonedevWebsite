@@ -1,10 +1,10 @@
-<button class="ButtonArrow">
+<a class="ButtonArrow">
     <div class="ButtonArrow__Ctn">
         <div class="ButtonArrow__img"></div>
-        @BtnMsg
+        @ChildContent
     </div>
-</button>
+</a>
 
 @code {
-    [Parameter] public string BtnMsg { get; set; } = "Message";
+    [Parameter] public RenderFragment ChildContent { get; set; } = @<p>Msg</p>;
 }

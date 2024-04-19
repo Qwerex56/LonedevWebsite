@@ -8,8 +8,22 @@
 }
 
 .ProjectCard__ProjectContent {
-    display: flex;
-    flex-direction: column;
+    padding: 1rem;
+    padding-top: 0;
+    
+    gap: 1.5rem;
+}
+
+.ProjectCard__ProjectContent__Texts {
+    gap: 0.5rem;
+}
+
+.ProjectCard__ProjectContent__Texts--Heading {
+    
+}
+
+.ProjectCard__ProjectContent__Texts--Description {
+    margin-left: 0.25rem;
 }
 
 .ProjectCard__ProjectContent__Buttons {

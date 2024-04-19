@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vfHUa1BPDicqKZ8USCRTEe9uetCzJG+yzTGnfX9NZrc=",
+  "Hash": "P9o/rkRUQupJ3iZwuOSHEiuptwDuKTx5ew0T2TxJNAY=",
   "Source": "LoneDevWebsite",
   "BasePath": "/",
   "Mode": "Root",
@@ -8033,6 +8033,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\grain-noise.png",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "grain-noise.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\grain-noise.png"
     },
     {
       "Identity": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\icon-192.png",

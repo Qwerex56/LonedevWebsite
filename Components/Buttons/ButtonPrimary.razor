@@ -1,4 +1,5 @@
-<button class="ContainerNormal ContainerNormalHover ButtonPrimary">
+<button class="ContainerNormal ContainerNormalHover ButtonPrimary"
+        @onclick="TriggerOnClick">
     <p class="ButtonPrimary__Text">
         @if (ChildContent is not null) {
             @ChildContent
@@ -8,4 +9,10 @@
 
 @code {
     [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public EventCallback<string?> OnClickCallback { get; set; }
+
+    private async Task TriggerOnClick() {
+        await OnClickCallback.InvokeAsync("https://catfact.ninja/fact");
+    }
+
 }

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\grain-noise.png",
+      "PackagePath": "staticwebassets\\grain-noise.png"
+    },
+    {
       "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },

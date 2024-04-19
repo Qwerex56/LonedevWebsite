@@ -35,18 +35,18 @@
 }
 /* _content/Components/Buttons/ButtonPrimary.razor.rz.scp.css */
 .ButtonPrimary[b-imugxlmgo4] {
+    padding: 0.5rem;
+    
     text-align: center;
+    
+    background-color: var(--cream);
 }
 /* _content/Components/Cards/CardBase.razor.rz.scp.css */
-.ContainerBase[b-bu7w3gd0jq] {
+.CardBase[b-bu7w3gd0jq] {
     display: flex;
     flex-direction: column;
     
-    gap: 0.5rem;
-}
-
-.ContainerBase__Content[b-bu7w3gd0jq] {
-    padding: 1rem;
+    gap: 1rem;
 }
 /* _content/Components/Cards/ProjectCard.razor.rz.scp.css */
 .ProjectCard__ProjectImage[b-jrz73y12r5] {
@@ -59,8 +59,22 @@
 }
 
 .ProjectCard__ProjectContent[b-jrz73y12r5] {
-    display: flex;
-    flex-direction: column;
+    padding: 1rem;
+    padding-top: 0;
+    
+    gap: 1.5rem;
+}
+
+.ProjectCard__ProjectContent__Texts[b-jrz73y12r5] {
+    gap: 0.5rem;
+}
+
+.ProjectCard__ProjectContent__Texts--Heading[b-jrz73y12r5] {
+    
+}
+
+.ProjectCard__ProjectContent__Texts--Description[b-jrz73y12r5] {
+    margin-left: 0.25rem;
 }
 
 .ProjectCard__ProjectContent__Buttons[b-jrz73y12r5] {

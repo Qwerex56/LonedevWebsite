@@ -3,10 +3,10 @@
 :root {
     /*### COLORS ###*/
     --khaki: #c3b49e;
-    --spanish-yellow: #f9b409;
-    --ming: #2a687a;
+    --cream: #F9F5F2;
+    --cream-transparent: rgba(249, 245, 242, 40%);
     --black-coffee: #3c3434;
-
+    
     /*### FONT ###*/
     --font-primary: "Public Sans", sans-serif;
     --font-weight-primary: 700;
@@ -34,8 +34,6 @@
 }
 
 .ContainerNormal {
-    padding: 0.5rem 1rem;
-
     border: var(--border-normal);
 
     background-color: var(--khaki);
@@ -55,7 +53,7 @@
 
     border: var(--border-small);
 
-    background-color: var(--khaki);
+    background-color: var(--cream);
 
     transition-duration: var(--transition-time-normal);
     box-shadow: var(--shadow-small);
@@ -72,7 +70,7 @@
 
     border: var(--border-large);
 
-    background-color: var(--spanish-yellow);
+    background-color: var(--cream);
 
     transition-duration: var(--transition-time-normal);
     box-shadow: var(--shadow-large);
@@ -120,6 +118,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
+    
+    background-image: url("grain-noise.png");
+    background-repeat: repeat;
+    background-size: auto;
 }
 
 ol, ul {
@@ -142,3 +144,15 @@ table {
 }
 
 /* End of Reset file */
+
+/* Utilities classes */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
