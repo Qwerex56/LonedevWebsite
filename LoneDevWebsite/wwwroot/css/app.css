@@ -1,41 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap');
 
 :root {
-    --bg-color-primary: #ffffff;
-    --text-color-primary: #000000;
-    --shadow-color-primary: #000000;
-    --border-color-primary: #000000;
-    
+    /*### COLORS ###*/
+    --khaki: #c3b49e;
+    --spanish-yellow: #f9b409;
+    --ming: #2a687a;
+    --black-coffee: #3c3434;
+
+    /*### FONT ###*/
     --font-primary: "Public Sans", sans-serif;
     --font-weight-primary: 700;
-    
-    /* Shadows variables */
-    --shadow-small: 2px 4px 0 0 var(--shadow-color-primary);
-    --shadow-hover-small: 4px 6px 0 0 var(--shadow-color-primary);
 
-    --shadow-normal: 4px 6px 0 0 var(--shadow-color-primary);
-    --shadow-hover-normal: 6px 8px 0 0 var(--shadow-color-primary);
-    
-    --shadow-large: 6px 8px 0 0 var(--shadow-color-primary);
-    --shadow-hover-large: 8px 10px 0 0 var(--shadow-color-primary);
-    
+    /* ### SHADOWS ### */
+    --shadow-small: 2px 4px 0 0 var(--black-coffee);
+    --shadow-hover-small: 4px 6px 0 0 var(--black-coffee);
+
+    --shadow-normal: 4px 6px 0 0 var(--black-coffee);
+    --shadow-hover-normal: 6px 8px 0 0 var(--black-coffee);
+
+    --shadow-large: 6px 8px 0 0 var(--black-coffee);
+    --shadow-hover-large: 8px 10px 0 0 var(--black-coffee);
+
+    /*### TRANSITION ###*/
     --translate-normal: 0 0;
     --translate-hover: -2px -2px;
-    
+
     --transition-time-normal: 200ms;
-    
-    --border-small: 0.0625rem solid var(--border-color-primary);
-    --border-normal: 0.125rem solid var(--border-color-primary);
-    --border-large: 0.250rem solid var(--border-color-primary);
+
+    /*### BORDERS ###*/
+    --border-small: 0.0625rem solid var(--black-coffee);
+    --border-normal: 0.125rem solid var(--black-coffee);
+    --border-large: 0.250rem solid var(--black-coffee);
 }
 
 .ContainerNormal {
     padding: 0.5rem 1rem;
-    
+
     border: var(--border-normal);
-    
-    background-color: var(--bg-color-primary);
-    
+
+    background-color: var(--khaki);
+
     transition-duration: var(--transition-time-normal);
     box-shadow: var(--shadow-normal);
     translate: var(--translate-normal);
@@ -51,7 +55,7 @@
 
     border: var(--border-small);
 
-    background-color: var(--bg-color-primary);
+    background-color: var(--khaki);
 
     transition-duration: var(--transition-time-normal);
     box-shadow: var(--shadow-small);
@@ -68,7 +72,7 @@
 
     border: var(--border-large);
 
-    background-color: var(--bg-color-primary);
+    background-color: var(--spanish-yellow);
 
     transition-duration: var(--transition-time-normal);
     box-shadow: var(--shadow-large);
@@ -107,25 +111,31 @@ time, mark, audio, video {
     font-weight: var(--font-weight-primary);
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;

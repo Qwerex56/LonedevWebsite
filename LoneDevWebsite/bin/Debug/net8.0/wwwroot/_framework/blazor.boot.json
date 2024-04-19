@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LoneDevWebsite",
   "resources": {
-    "hash": "sha256-ag3+zxHGZabcpxNSpuPnd2uHsLDUBhzAHHKhCGw9A6g=",
+    "hash": "sha256-Qc38P2h8Kc6ONVMIckH/eKMXIquoZdZXlzSOtRSqlRk=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.3h78v8lyts.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -208,12 +208,12 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "Components.wasm": "sha256-Hc482MoTgW/zpHX0vD5vwQDFs8oPILGg6uif2aR/tjg=",
-      "LoneDevWebsite.wasm": "sha256-bPl3F6o+/fCoTprak9cgOO3mamPXEoBGj9X0G8ghXKM="
+      "Components.wasm": "sha256-Q8RI7F3nBxD+OPu0r6qIDz1DiRZVU3ihi0kycEG7gZc=",
+      "LoneDevWebsite.wasm": "sha256-tGKlE40IPihB3KuKyuQ0/iLD6PQVzoTOnGDRaQOQhr4="
     },
     "pdb": {
-      "Components.pdb": "sha256-mH3ZKx+uY+3CasIWk3hVh8/JiBRToqcysWh/nuzdS9U=",
-      "LoneDevWebsite.pdb": "sha256-WA6baJm+XKa2wHF+vQJRd/jfQNwPgJDf1NQzHt+Tex4="
+      "Components.pdb": "sha256-JQJtHtcePNuLzb6kytsIVt2TKPh+6nFnARzHi0xEzvo=",
+      "LoneDevWebsite.pdb": "sha256-crgqilbF2P2rCz/6EevlEkpqQE8QIkh1YRaacCIt85M="
     }
   },
   "cacheBootResources": true,
