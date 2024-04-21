@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KxZEQihGUIQtGu5cHNam1qmxBH4yoLMlNJpNZGwdRYIuB5QeP2GSTcNl+JlFghkTMRsv+zirbTKsO5kjMoXcag==",
+  "dgSpecHash": "UKxrwdaYcTgdu6QVzIYnGmMtoaWdHYJrlJBfrMYG+kbYist/VhY8emGa2R2P0GE9j60Er9sT1QfnZ8DFgQ67Fg==",
   "success": true,
   "projectFilePath": "E:\\LonedevWebsite\\Components\\Components.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\qwere\\.nuget\\packages\\markdig\\0.37.0\\markdig.0.37.0.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.3\\microsoft.aspnetcore.components.analyzers.8.0.3.nupkg.sha512",

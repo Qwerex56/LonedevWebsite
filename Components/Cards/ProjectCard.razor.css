@@ -15,12 +15,18 @@
 }
 
 .ProjectCard__ProjectContent__Texts {
+    max-height: 250px;
+    
     gap: 0.5rem;
+    overflow: hidden;
 }
 
-.ProjectCard__ProjectContent__Texts--Heading {
-    
+.popup {
+    overflow: scroll;
+    overflow-x: hidden;
 }
+
+.ProjectCard__ProjectContent__Texts--Heading { }
 
 .ProjectCard__ProjectContent__Texts--Description {
     margin-left: 0.25rem;

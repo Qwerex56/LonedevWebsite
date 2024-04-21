@@ -1,3 +1,8 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.MainLayout[b-1hlwk3gp4p] {
+    align-items: center;
+    gap: 5rem;
+}
 /* /Layout/NavMenu.razor.rz.scp.css */
 .NavBar[b-yqju0323zw] {
     display: flex;
@@ -22,3 +27,22 @@
     gap: 5rem;
     font-size: 1.5rem !important;
 }
+/* /Pages/MainPage.razor.rz.scp.css */
+.PageSection[b-tcv37ebu9n] {
+    align-items: center;
+    
+    gap: 3rem;
+}
+
+.PageSection__Heading[b-tcv37ebu9n] {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.MainPage-grid[b-tcv37ebu9n] {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 2rem;
+}
+

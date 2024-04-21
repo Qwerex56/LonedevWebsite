@@ -1,18 +1,57 @@
 @page "/"
 @using Components.Cards
 
-<div style="display: flex;">
-    <ProjectCard>
-        <HeaderContent>
-            Custom Title
-        </HeaderContent>
-        <DescriptionContent>
-            Some description
-        </DescriptionContent>
-    </ProjectCard>
-</div>
+<section id="AboutMe"
+         class="PageSection">
+
+</section>
+
+<section id="MyWork"
+         class="PageSection flex-col">
+    <h2 class="PageSection__Heading">
+        My Work
+    </h2>
+
+    <div class="MainPage-grid flex-col">
+        <ProjectCard ProjectReadMeLink="https://api.github.com/repos/Qwerex56/newsletter-signnup-form/readme"
+                     ProjectLiveSite="https://stellular-sherbet-72f94d.netlify.app/">
+            <HeaderContent>
+                Custom Title2
+            </HeaderContent>
+            <DescriptionContent>
+                Some description
+            </DescriptionContent>
+        </ProjectCard>
+        <ProjectCard>
+            <HeaderContent>
+                Custom Title
+            </HeaderContent>
+            <DescriptionContent>
+                Some description
+            </DescriptionContent>
+        </ProjectCard>
+        <ProjectCard>
+            <HeaderContent>
+                Custom Title
+            </HeaderContent>
+            <DescriptionContent>
+                Some description
+            </DescriptionContent>
+        </ProjectCard>
+    </div>
+</section>
+
+<section id="Blog"
+         class="PageSection">
+
+</section>
+
+<section id="ContactMe"
+         class="PageSection">
+
+</section>
 
 
 @code {
-    
+
 }

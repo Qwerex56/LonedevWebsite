@@ -2,64 +2,120 @@
 @using Components.Buttons
 @using System.Net.Http.Json
 @using System.Text.Json.Serialization
+@using System.Buffers.Text
+@using System.Text
+@using Markdig
+@using Markdig.Syntax
 
-@inject HttpClient http
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
 
 <CardBase>
-    <img src="img-placeholder.svg" class="ProjectCard__ProjectImage" alt="img">
+    <img src="img-placeholder.svg"
+         class="ProjectCard__ProjectImage"
+         alt="img">
     <div class="ProjectCard__ProjectContent flex-col">
-        <div class="ProjectCard__ProjectContent__Texts flex-col">
-            <h2 class="ProjectCard__ProjectContent__Texts--Heading">
-                @if (HeaderContent is null) {
-                    // Fallback
-                    // Fallback title
+        @if (_showReadmePopup) {
+            <ButtonPrimary OnClickCallback="CloseReadMe">
+                Close
+            </ButtonPrimary>
+            <div class="ProjectCard__ProjectContent__Texts popup flex-col">
+                @if (_content is null) {
+                    <em>Cannot fetch Readme file</em>
                 }
                 else {
-                    @HeaderContent
+                    @((MarkupString)_content)
                 }
-            </h2>
-            <p class="ProjectCard__ProjectContent__Texts--Description">
-                @if (DescriptionContent is not null) {
-                    @DescriptionContent
-                }
-                @* No fallback content *@
-            </p>
-        </div>
-        <div class="ProjectCard__ProjectContent__Buttons">
-            <ButtonPrimary>
-                Live site preview
-            </ButtonPrimary>
-            <ButtonPrimary>
-                Go to project
-            </ButtonPrimary>
-            <ButtonPrimary OnClickCallback="GetReadme">
-                README - preview
-            </ButtonPrimary>
-        </div>
+            </div>
+        }
+        else {
+            <div class="ProjectCard__ProjectContent__Texts flex-col">
+                <h2 class="ProjectCard__ProjectContent__Texts--Heading">
+                    @if (HeaderContent is null) {
+                        // Fallback
+                        // Fallback title
+                    }
+                    else {
+                        @HeaderContent
+                    }
+                </h2>
+                <p class="ProjectCard__ProjectContent__Texts--Description">
+                    @if (DescriptionContent is not null) {
+                        @DescriptionContent
+                    }
+                    @* No fallback content *@
+                </p>
+            </div>
+            <div class="ProjectCard__ProjectContent__Buttons">
+                <ButtonPrimary OnClickCallback="@(() => NavigateToSite(ProjectLiveSite?? ""))">
+                    Live site preview
+                </ButtonPrimary>
+                <ButtonPrimary OnClickCallback="@(() => NavigateToSite(ProjectRepoLink?? ""))">
+                    Go to project
+                </ButtonPrimary>
+                <ButtonPrimary OnClickCallback="GetReadme">
+                    README - preview
+                </ButtonPrimary>
+            </div>
+        }
     </div>
 </CardBase>
 
 @code {
 
-    class Model {
-        [JsonPropertyName("fact")]
-        public string? Fact { get; set; }
+    private class ReadmeModel{
+        [JsonPropertyName("encoding")] public string? Encoding { get; init; }
+        [JsonPropertyName("size")] public int? Size { get; init; }
+        [JsonPropertyName("content")] public string? Content { get; init; }
+        [JsonPropertyName("sha")] public string? Sha { get; init; }
     }
-    
-    // [Parameter] public string  
+
+
+    [Parameter] public string? ProjectRepoLink { get; set; }
+    [Parameter] public string? ProjectLiveSite { get; set; }
+    [Parameter] public string? ProjectReadMeLink { get; set; } /*= "https://api.github.com/repos/Qwerex56/newsletter-signnup-form/readme";*/
+
     [Parameter] public string ImageSource { get; set; } = null!;
     [Parameter] public RenderFragment? HeaderContent { get; set; }
     [Parameter] public RenderFragment? DescriptionContent { get; set; }
 
-    private async Task<string?> GetReadme(string? uri) {
-        if (uri is null) return null;
-        
-        var response = await http.GetAsync(uri);
-        response.EnsureSuccessStatusCode();
+    private string? _content;
+    private bool _showReadmePopup = false;
 
-        var responseBody = await response.Content.ReadFromJsonAsync<Model>();
-            
-        Console.WriteLine(responseBody?.Fact);
-        return responseBody?.Fact;
+    private async Task GetReadme() {
+        if (!Uri.IsWellFormedUriString(ProjectReadMeLink, UriKind.Absolute)) {
+            _content = null;
+            _showReadmePopup = true;
+            throw new UriFormatException();
+        }
+
+        try {
+            var response = await Http.GetAsync(ProjectReadMeLink);
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadFromJsonAsync<ReadmeModel>();
+            var text = Encoding.UTF8.GetString(Convert.FromBase64String(json?.Content ?? ""));
+
+            _content = Markdown.ToHtml(text);
+        }
+        catch (HttpRequestException e) {
+            Console.WriteLine(e);
+            _content = null;
+        }
+
+        _showReadmePopup = true;
     }
+
+    private void CloseReadMe() {
+        _showReadmePopup = false;
+    }
+
+    private void NavigateToSite(string siteUrl) {
+        if (!Uri.IsWellFormedUriString(siteUrl, UriKind.Absolute)) {
+            return;
+        }
+        
+        NavigationManager.NavigateTo(siteUrl);
+    }
+
 }

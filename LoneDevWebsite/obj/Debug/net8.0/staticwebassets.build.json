@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P9o/rkRUQupJ3iZwuOSHEiuptwDuKTx5ew0T2TxJNAY=",
+  "Hash": "Fp96wr93q+/oXTo804OwSbPMdSxS0KRQWL8iCXKaI+U=",
   "Source": "LoneDevWebsite",
   "BasePath": "/",
   "Mode": "Root",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\webcil\\LoneDevWebsite.wasm"
+    },
+    {
+      "Identity": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Markdig.wasm",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Markdig.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\webcil\\Markdig.wasm"
     },
     {
       "Identity": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4594,6 +4613,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Immutable.wasm"
+    },
+    {
+      "Identity": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\4j0wixmmwn.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Markdig.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Markdig.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Markdig.wasm"
     },
     {
       "Identity": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\4q73zwr9os.gz",

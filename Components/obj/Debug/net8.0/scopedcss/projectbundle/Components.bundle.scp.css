@@ -66,12 +66,18 @@
 }
 
 .ProjectCard__ProjectContent__Texts[b-jrz73y12r5] {
+    max-height: 250px;
+    
     gap: 0.5rem;
+    overflow: hidden;
 }
 
-.ProjectCard__ProjectContent__Texts--Heading[b-jrz73y12r5] {
-    
+.popup[b-jrz73y12r5] {
+    overflow: scroll;
+    overflow-x: hidden;
 }
+
+.ProjectCard__ProjectContent__Texts--Heading[b-jrz73y12r5] { }
 
 .ProjectCard__ProjectContent__Texts--Description[b-jrz73y12r5] {
     margin-left: 0.25rem;

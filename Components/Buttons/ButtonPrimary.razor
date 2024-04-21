@@ -9,10 +9,10 @@
 
 @code {
     [Parameter] public RenderFragment? ChildContent { get; set; }
-    [Parameter] public EventCallback<string?> OnClickCallback { get; set; }
+    [Parameter] public EventCallback OnClickCallback { get; set; }
 
     private async Task TriggerOnClick() {
-        await OnClickCallback.InvokeAsync("https://catfact.ninja/fact");
+        await OnClickCallback.InvokeAsync();
     }
 
 }
