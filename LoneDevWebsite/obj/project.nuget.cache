@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HFbzziNwHAhf43nV+7uMlGktCnerDNFUc5ksDMJbmvuHzB2mHU6pwV8pvk9Ouc8JiRKDvyxDOBcNe71GhAfVrA==",
+  "dgSpecHash": "t+BnXMorsZR0QXb/eI7mVxeknme0wd0qylXGhj1cC2psR9Arn8pArBNTKTAJ9DzhWxpunHu46kydnvBxlEo2cQ==",
   "success": true,
-  "projectFilePath": "E:\\LonedevWebsite\\LoneDevWebsite\\LoneDevWebsite.csproj",
+  "projectFilePath": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\LoneDevWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qwere\\.nuget\\packages\\markdig\\0.37.0\\markdig.0.37.0.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
@@ -29,12 +29,12 @@
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.jsinterop\\8.0.3\\microsoft.jsinterop.8.0.3.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.3\\microsoft.jsinterop.webassembly.8.0.3.nupkg.sha512",
-    "C:\\Users\\qwere\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
-    "C:\\Users\\qwere\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.4\\microsoft.net.sdk.webassembly.pack.8.0.4.nupkg.sha512",
+    "C:\\Users\\qwere\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.3\\microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
+    "C:\\Users\\qwere\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.3\\microsoft.net.sdk.webassembly.pack.8.0.3.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\qwere\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.4.nupkg.sha512"
+    "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }

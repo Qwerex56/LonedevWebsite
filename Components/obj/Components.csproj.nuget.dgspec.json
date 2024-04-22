@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\LonedevWebsite\\Components\\Components.csproj": {}
+    "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\Components.csproj": {}
   },
   "projects": {
-    "E:\\LonedevWebsite\\Components\\Components.csproj": {
+    "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\Components.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\LonedevWebsite\\Components\\Components.csproj",
+        "projectUniqueName": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\Components.csproj",
         "projectName": "Components",
-        "projectPath": "E:\\LonedevWebsite\\Components\\Components.csproj",
+        "projectPath": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\Components.csproj",
         "packagesPath": "C:\\Users\\qwere\\.nuget\\packages\\",
-        "outputPath": "E:\\LonedevWebsite\\Components\\obj\\",
+        "outputPath": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\qwere\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\qwere\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
