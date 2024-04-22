@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K4xKVcZAAzz2muqee0rvWlutU36cJ2OoUT0ajg/D26E=",
+  "Hash": "Xbc8Jnbr+9taLWOE34jQqTAeO/tGAzWreOA/zg3mpLA=",
   "Source": "LoneDevWebsite",
   "BasePath": "/",
   "Mode": "Root",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "Components",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.lac5uanjvv.js",
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.4.3h78v8lyts.js",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
       "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.3.lac5uanjvv.js",
+      "RelativePath": "_framework/dotnet.native.8.0.4.3h78v8lyts.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.f6bqd36tve.js",
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.4.g40vp66p1k.js",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
       "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.3.f6bqd36tve.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.4.g40vp66p1k.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,7 +299,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -337,7 +337,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -356,7 +356,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -375,7 +375,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\qwere\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LoneDevWebsite.pdb",
@@ -4121,6 +4121,25 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Formats.Tar.wasm"
     },
     {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\0bzxlhupvi.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\0fumi0x8s2.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
@@ -4349,25 +4368,6 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\2th23p88dn.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\31mkm1h450.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
@@ -4442,6 +4442,44 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.wasm"
+    },
+    {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\3caar7jt3q.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\3h78v8lyts.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.4.3h78v8lyts.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.4.3h78v8lyts.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.4.3h78v8lyts.js"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\3jz45vuzow.gz",
@@ -4632,25 +4670,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Process.wasm"
-    },
-    {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\4gp76wmkgb.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\4ksgkkjwur.gz",
@@ -4995,25 +5014,6 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Parallel.wasm"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\6ybtdoy530.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
-    },
-    {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\6ywz828b2h.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
@@ -5088,25 +5088,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.wasm"
-    },
-    {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\8jbggejf5c.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\8lscroliex.gz",
@@ -5185,23 +5166,23 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.wasm"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\8p2hdss98l.gz",
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\8zbz7nz1sw.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
       "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\98x7d5oi2c.gz",
@@ -5373,6 +5354,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebProxy.wasm"
+    },
+    {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\av801587ig.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\b36wvtp2gv.gz",
@@ -5850,25 +5850,6 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Components.pdb"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\f6bqd36tve.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.3.f6bqd36tve.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.f6bqd36tve.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.f6bqd36tve.js"
-    },
-    {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\f87uj25guu.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
@@ -5962,6 +5943,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.wasm"
+    },
+    {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\g40vp66p1k.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.4.g40vp66p1k.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.4.g40vp66p1k.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.4.g40vp66p1k.js"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\gd3cqqlhlb.gz",
@@ -6230,6 +6230,25 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.wasm"
     },
     {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\igoddo48v7.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
+    },
+    {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\im3xxtlite.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
@@ -6344,23 +6363,23 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.wasm"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\jpvny2xph3.gz",
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\jgua5ubmth.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
       "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
+      "RelativePath": "_framework/dotnet.js.map.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\jr1wdcezhz.gz",
@@ -6570,25 +6589,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm"
-    },
-    {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\lac5uanjvv.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.3.lac5uanjvv.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.lac5uanjvv.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.lac5uanjvv.js"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\lbq4jyd8il.gz",
@@ -7028,6 +7028,25 @@
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm"
     },
     {
+      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\pzzdfa459u.gz",
+      "SourceId": "LoneDevWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+    },
+    {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\q3q3b34j15.gz",
       "SourceId": "LoneDevWebsite",
       "SourceType": "Computed",
@@ -7349,25 +7368,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.AccessControl.wasm"
-    },
-    {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\tgqmg2o99n.gz",
-      "SourceId": "LoneDevWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\txum8osqqr.gz",
