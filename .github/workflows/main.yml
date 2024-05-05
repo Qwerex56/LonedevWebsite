@@ -2,6 +2,7 @@ permissions:
   pull-requests: write
   issues: write
   repository-projects: write
+  contents: write
 
 name: build and test and deploy
 
