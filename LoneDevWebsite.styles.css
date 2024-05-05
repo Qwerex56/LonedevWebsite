@@ -1,0 +1,77 @@
+@import '_content/Components/Components.bundle.scp.css';
+
+/* /Layout/MainLayout.razor.rz.scp.css */
+.MainLayout[b-r66a3qtw76] {
+    align-items: center;
+    gap: 5rem;
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+.NavBar[b-4osc34dkpq] {
+    display: flex;
+    flex-direction: row;
+ 
+    --px: 1rem; --py: 1.5rem;
+    padding: var(--py) var(--px);
+
+    width: 100%;
+}
+
+.NavBar__Logo[b-4osc34dkpq] {
+    font-size: 3rem;
+}
+
+.NavBar__Buttons[b-4osc34dkpq] {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 2rem;
+    
+    align-items: center;
+    
+    gap: 5rem;
+    font-size: 1.5rem !important;
+}
+/* /Pages/MainPage.razor.rz.scp.css */
+.PageSection[b-0l20sb4aoe] {
+    align-items: center;
+    
+    gap: 3rem;
+}
+
+.PageSection__Heading[b-0l20sb4aoe] {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+}
+
+
+.AboutMe[b-0l20sb4aoe] {
+    max-width: 66.6%;
+    gap: 5rem;
+}
+
+.AboutMe__Texts[b-0l20sb4aoe] {
+    gap: 1rem;
+    align-self: center; 
+}
+
+.AboutMe__Heading[b-0l20sb4aoe] {
+    font-size: 2.5rem;
+}
+
+.AboutMe__description[b-0l20sb4aoe] {
+    margin-left: 1.5rem;
+    
+    font-size: 2rem;
+}
+
+.AboutMe__Image:hover[b-0l20sb4aoe] {
+    transition: none;
+}
+
+.MainPage-grid[b-0l20sb4aoe] {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 2rem;
+}
+
