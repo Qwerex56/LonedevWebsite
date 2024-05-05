@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap');
+
+:root {
+    /*### COLORS ###*/
+    --khaki: #c3b49e;
+    --cream: #F9F5F2;
+    --cream-transparent: rgba(249, 245, 242, 40%);
+    --black-coffee: #3c3434;
+    
+    /*### FONT ###*/
+    --font-primary: "Public Sans", sans-serif;
+    --font-weight-primary: 700;
+
+    /* ### SHADOWS ### */
+    --shadow-small: 2px 4px 0 0 var(--black-coffee);
+    --shadow-hover-small: 4px 6px 0 0 var(--black-coffee);
+
+    --shadow-normal: 4px 6px 0 0 var(--black-coffee);
+    --shadow-hover-normal: 6px 8px 0 0 var(--black-coffee);
+
+    --shadow-large: 6px 8px 0 0 var(--black-coffee);
+    --shadow-hover-large: 8px 10px 0 0 var(--black-coffee);
+
+    /*### TRANSITION ###*/
+    --translate-normal: 0 0;
+    --translate-hover: -2px -2px;
+
+    --transition-time-normal: 200ms;
+
+    /*### BORDERS ###*/
+    --border-small: 0.0625rem solid var(--black-coffee);
+    --border-normal: 0.125rem solid var(--black-coffee);
+    --border-large: 0.250rem solid var(--black-coffee);
+}
+
+.ContainerNormal {
+    border: var(--border-normal);
+
+    background-color: var(--khaki);
+
+    transition-duration: var(--transition-time-normal);
+    box-shadow: var(--shadow-normal);
+    translate: var(--translate-normal);
+}
+
+.ContainerNormalHover:hover {
+    box-shadow: var(--shadow-hover-normal);
+    translate: var(--translate-hover);
+}
+
+.ContainerSmall {
+    padding: 0.5rem 1rem;
+
+    border: var(--border-small);
+
+    background-color: var(--cream);
+
+    transition-duration: var(--transition-time-normal);
+    box-shadow: var(--shadow-small);
+    translate: var(--translate-normal);
+}
+
+.ContainerSmallHover:hover {
+    box-shadow: var(--shadow-hover-small);
+    translate: var(--translate-hover);
+}
+
+.ContainerLarge {
+    padding: 0.5rem 1rem;
+
+    border: var(--border-large);
+
+    background-color: var(--cream);
+
+    transition-duration: var(--transition-time-normal);
+    box-shadow: var(--shadow-large);
+    translate: var(--translate-normal);
+}
+
+.ContainerLargeHover:hover {
+    box-shadow: var(--shadow-hover-large);
+    translate: var(--translate-hover);
+}
+
+/* 
+    Reset file
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-primary);
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    
+    background-image: url("../grain-noise.png");
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Reset file */
+
+/* Utilities classes */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
