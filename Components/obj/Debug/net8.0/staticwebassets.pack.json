@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Components.bundle.scp.css",
+      "Id": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Components.bundle.scp.css",
       "PackagePath": "staticwebassets\\Components.bundle.scp.css"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\arrow-right-solid.svg",
+      "Id": "E:\\LonedevWebsite\\Components\\wwwroot\\arrow-right-solid.svg",
       "PackagePath": "staticwebassets\\arrow-right-solid.svg"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\background.png",
+      "Id": "E:\\LonedevWebsite\\Components\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\exampleJsInterop.js",
+      "Id": "E:\\LonedevWebsite\\Components\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\img-placeholder.svg",
+      "Id": "E:\\LonedevWebsite\\Components\\wwwroot\\img-placeholder.svg",
       "PackagePath": "staticwebassets\\img-placeholder.svg"
     },
     {

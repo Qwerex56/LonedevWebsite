@@ -26,6 +26,8 @@
     margin-left: auto;
     margin-right: 2rem;
     
+    align-items: center;
+    
     gap: 5rem;
     font-size: 1.5rem !important;
 }
@@ -40,6 +42,31 @@
     text-align: center;
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
+}
+
+
+.AboutMe[b-tcv37ebu9n] {
+    max-width: 66.6%;
+    gap: 5rem;
+}
+
+.AboutMe__Texts[b-tcv37ebu9n] {
+    gap: 1rem;
+    align-self: center; 
+}
+
+.AboutMe__Heading[b-tcv37ebu9n] {
+    font-size: 2.5rem;
+}
+
+.AboutMe__description[b-tcv37ebu9n] {
+    margin-left: 1.5rem;
+    
+    font-size: 2rem;
+}
+
+.AboutMe__Image:hover[b-tcv37ebu9n] {
+    transition: none;
 }
 
 .MainPage-grid[b-tcv37ebu9n] {

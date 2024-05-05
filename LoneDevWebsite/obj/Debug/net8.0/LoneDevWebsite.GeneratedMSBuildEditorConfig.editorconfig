@@ -13,35 +13,35 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = LoneDevWebsite
 build_property.RootNamespace = LoneDevWebsite
-build_property.ProjectDir = D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite\
+build_property.ProjectDir = E:\LonedevWebsite\LoneDevWebsite\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\dev\LoneDevSite\LoneDevWebsite\LoneDevWebsite
+build_property.MSBuildProjectDirectory = E:\LonedevWebsite\LoneDevWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/dev/LoneDevSite/LoneDevWebsite/LoneDevWebsite/App.razor]
+[E:/LonedevWebsite/LoneDevWebsite/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/LoneDevSite/LoneDevWebsite/LoneDevWebsite/Pages/Weather.razor]
+[E:/LonedevWebsite/LoneDevWebsite/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/LoneDevSite/LoneDevWebsite/LoneDevWebsite/_Imports.razor]
+[E:/LonedevWebsite/LoneDevWebsite/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/LoneDevSite/LoneDevWebsite/LoneDevWebsite/Layout/MainLayout.razor]
+[E:/LonedevWebsite/LoneDevWebsite/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1hlwk3gp4p
 
-[D:/dev/LoneDevSite/LoneDevWebsite/LoneDevWebsite/Layout/NavMenu.razor]
+[E:/LonedevWebsite/LoneDevWebsite/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yqju0323zw
 
-[D:/dev/LoneDevSite/LoneDevWebsite/LoneDevWebsite/Pages/MainPage.razor]
+[E:/LonedevWebsite/LoneDevWebsite/Pages/MainPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-tcv37ebu9n

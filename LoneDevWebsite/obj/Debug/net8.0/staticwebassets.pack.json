@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\byxs1kkpax.gz",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\compressed\\byxs1kkpax.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LoneDevWebsite.styles.css",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LoneDevWebsite.styles.css",
       "PackagePath": "staticwebassets\\LoneDevWebsite.styles.css"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\css\\app.css",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\favicon.png",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\grain-noise.png",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\grain-noise.png",
       "PackagePath": "staticwebassets\\grain-noise.png"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\icon-192.png",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\img-placeholder.svg",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\img-placeholder.svg",
       "PackagePath": "staticwebassets\\img-placeholder.svg"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\index.html",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\wwwroot\\sample-data\\weather.json",
+      "Id": "E:\\LonedevWebsite\\LoneDevWebsite\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

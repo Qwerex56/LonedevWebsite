@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+MS2ijrk+5vCrmrcm2M9wKUVkwBZJVuBE2HbjCpN7Ds=",
+  "Hash": "F+rxCwJdasT/9CpMLFaQIx2QyKg+1yY+fJNmE2lAlvs=",
   "Source": "Components",
   "BasePath": "_content/Components",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Components\\wwwroot",
       "Source": "Components",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\wwwroot\\",
       "BasePath": "_content/Components",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Components.styles.css",
+      "Identity": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Components.styles.css",
       "SourceId": "Components",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Components",
       "RelativePath": "Components.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Components.styles.css"
+      "OriginalItemSpec": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Components.styles.css"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Components.bundle.scp.css",
+      "Identity": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Components.bundle.scp.css",
       "SourceId": "Components",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Components",
       "RelativePath": "Components.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Components.bundle.scp.css"
+      "OriginalItemSpec": "E:\\LonedevWebsite\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Components.bundle.scp.css"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\arrow-right-solid.svg",
+      "Identity": "E:\\LonedevWebsite\\Components\\wwwroot\\arrow-right-solid.svg",
       "SourceId": "Components",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\wwwroot\\",
       "BasePath": "_content/Components",
       "RelativePath": "arrow-right-solid.svg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\arrow-right-solid.svg"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\background.png",
+      "Identity": "E:\\LonedevWebsite\\Components\\wwwroot\\background.png",
       "SourceId": "Components",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\wwwroot\\",
       "BasePath": "_content/Components",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\LonedevWebsite\\Components\\wwwroot\\exampleJsInterop.js",
       "SourceId": "Components",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\wwwroot\\",
       "BasePath": "_content/Components",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\img-placeholder.svg",
+      "Identity": "E:\\LonedevWebsite\\Components\\wwwroot\\img-placeholder.svg",
       "SourceId": "Components",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\wwwroot\\",
+      "ContentRoot": "E:\\LonedevWebsite\\Components\\wwwroot\\",
       "BasePath": "_content/Components",
       "RelativePath": "img-placeholder.svg",
       "AssetKind": "All",

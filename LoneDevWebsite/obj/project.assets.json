@@ -2145,11 +2145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\LoneDevWebsite.csproj",
+      "projectUniqueName": "E:\\LonedevWebsite\\LoneDevWebsite\\LoneDevWebsite.csproj",
       "projectName": "LoneDevWebsite",
-      "projectPath": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\LoneDevWebsite.csproj",
+      "projectPath": "E:\\LonedevWebsite\\LoneDevWebsite\\LoneDevWebsite.csproj",
       "packagesPath": "C:\\Users\\qwere\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\LoneDevWebsite\\obj\\",
+      "outputPath": "E:\\LonedevWebsite\\LoneDevWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\qwere\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2164,8 +2164,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\Components.csproj": {
-              "projectPath": "D:\\dev\\LoneDevSite\\LoneDevWebsite\\Components\\Components.csproj"
+            "E:\\LonedevWebsite\\Components\\Components.csproj": {
+              "projectPath": "E:\\LonedevWebsite\\Components\\Components.csproj"
             }
           }
         }
@@ -2174,11 +2174,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

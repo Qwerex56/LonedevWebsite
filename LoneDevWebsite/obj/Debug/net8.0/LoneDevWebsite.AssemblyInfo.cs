@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoneDevWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70d9286ea6382d1caf7340437f7d3daa57bdb776")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+383f83b752c9c1dd6e32c5d34e8a4698b8c27355")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoneDevWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoneDevWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
